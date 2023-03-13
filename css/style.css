@@ -28,6 +28,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  padding-inline: 32px;
 }
 
 .title {
@@ -41,12 +42,12 @@ body {
   gap: 24px;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .card {
   position: relative;
-  width: 384px;
+  max-width: 384px;
   border-radius: 15px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.19);
 }
@@ -77,13 +78,13 @@ body {
 
 .card::before {
   content: '';
-  width: 352px;
+  width: 90%;
   height: 1px;
   border-radius: 1px;
   background: var(--c4);
   position: absolute;
   bottom: 16px;
-  right: 16px;
+  right: 5%;
 }
 
 .card::after {
@@ -144,4 +145,16 @@ body {
 
 .exchange img {
   margin: 4px;
+}
+
+@media(max-width: 900px) {
+  .container-cards {
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  .title {
+    margin-top: 40px;
+  }
 }
