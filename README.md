@@ -17,3 +17,19 @@
 - ``HTML``
 - ``CSS``
 - ``JAVASCRIPT``
+
+<h2> ✔️ Como executar o projeto </h2>
+<strong>Para executar o projeto, siga estas etapas:</strong>
+
+1 - Clone este repositório. <br>
+2 - Abra o arquivo index.html no seu navegador. <br>
+3 - Use o conversor de moedas para converter valores de uma moeda para outra.
+
+<h2> ✔️ Como contribuir </h2>
+<strong>Para contribuir com o projeto, siga estas etapas:</strong>
+
+1 - Faça um fork deste repositório. <br>
+2 - Crie uma nova branch com suas modificações. <br>
+3 - Faça suas alterações e salve-as. <br>
+4 - Envie as alterações para o seu fork. <br>
+5 - Envie um pull request para o repositório original.
