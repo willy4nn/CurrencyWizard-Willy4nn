@@ -46,6 +46,10 @@ function convert() {
       const usdValue = currencyOneValue / rateOne;
       const convertedValue = usdValue * rateTwo;
       inputs[1].value = convertedValue.toFixed(2);
+    })
+    .catch((error) => {
+      console.error(error);
+      alert('Houve um erro ao converter a moeda. Por favor, tente novamente mais tarde.');
     });
 }
 

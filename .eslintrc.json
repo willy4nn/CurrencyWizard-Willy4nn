@@ -10,6 +10,8 @@
         "ecmaVersion": "latest"
     },
     "rules": {
-        "no-param-reassign": "off"
+        "no-param-reassign": "off",
+        "no-alert": "off",
+        "no-console": "off"
     }
 }
